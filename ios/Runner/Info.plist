@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CADisableMinimumFrameDurationOnPhone</key>
+  <true/>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>$(DEVELOPMENT_LANGUAGE)</string>
+  <key>CFBundleDisplayName</key>
+  <string>Balaghnyv1</string>
+  <key>CFBundleExecutable</key>
+  <string>$(EXECUTABLE_NAME)</string>
+  <key>CFBundleIdentifier</key>
+  <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>balaghnyv1</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>$(FLUTTER_BUILD_NAME)</string>
+  <key>CFBundleSignature</key>
+  <string>????</string>
+  <key>CFBundleVersion</key>
+  <string>$(FLUTTER_BUILD_NUMBER)</string>
+
+  <!-- Firebase -->
+  <key>FirebaseAppDelegateProxyEnabled</key>
+  <true/>
+  <key>GMSApiKey</key>
+  <string>AIzaSyDVDg_LXXFUqWOmofPqNg4Tg0-6yzpPpaU</string>
+
+  <!-- Permissions -->
+  <key>NSCameraUsageDescription</key>
+  <string>This app may use the camera to take pictures.</string>
+  <key>NSDocumentsFolderUsageDescription</key>
+  <string>This app needs access to your files for uploading documents.</string>
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>This app needs access to your location to select a report location.</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>This app needs access to your location to select report location.</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>This app needs access to your photo library to upload images.</string>
+  <key>NSUserNotificationUsageDescription</key>
+  <string>This app uses notifications to alert you of important updates.</string>
+
+  <!-- Background modes -->
+  <key>UIBackgroundModes</key>
+  <array>
+    <string>fetch</string>
+    <string>remote-notification</string>
+    <string>voip</string>
+    <string>audio</string>
+    <string>location</string>
+    <string>bluetooth-central</string>
+    <string>bluetooth-peripheral</string>
+    <string>external-accessory</string>
+  </array>
+
+  <!-- App launch -->
+  <key>UILaunchStoryboardName</key>
+  <string>LaunchScreen</string>
+  <key>UIMainStoryboardFile</key>
+  <string>Main</string>
+
+  <!-- Interface orientation -->
+  <key>UISupportedInterfaceOrientations</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+    <string>UIInterfaceOrientationLandscapeLeft</string>
+    <string>UIInterfaceOrientationLandscapeRight</string>
+  </array>
+  <key>UISupportedInterfaceOrientations~ipad</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    <string>UIInterfaceOrientationLandscapeLeft</string>
+    <string>UIInterfaceOrientationLandscapeRight</string>
+  </array>
+
+  <!-- Flutter embedded views -->
+  <key>io.flutter.embedded_views_preview</key>
+  <true/>
+  <key>UIApplicationSupportsIndirectInputEvents</key>
+  <true/>
+</dict>
+</plist>
